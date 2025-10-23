@@ -4,6 +4,7 @@ import Food from './Food.jsx';
 import Card from './Card.jsx';
 import Student from './Student.jsx';
 import UserGreeting from './UserGreeting.jsx';
+import List from './List.jsx';
 
 
 
@@ -17,7 +18,8 @@ function App() {
       <Header/>
 
       <UserGreeting isLoggedIn={true} username="JohnDoe"/>
-
+      
+      <List/>
 
 
 
